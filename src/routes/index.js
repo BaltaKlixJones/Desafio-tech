@@ -2,7 +2,9 @@ const { Router } = require("express");
 const router = Router();
 const userRouter = require("./userRoute");
 const passport = require("passport");
-router.use("/user", userRouter);
+
+
+router.use("/users", userRouter);
 
 router.post(
   "/signup",

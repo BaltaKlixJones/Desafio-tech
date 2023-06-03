@@ -1,7 +1,5 @@
 const express = require("express");
 const {Router} = require("express");
-const routerUsers = express.Router();
-
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 const Sequelize = require("sequelize");
